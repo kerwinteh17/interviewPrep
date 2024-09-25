@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interview Prep</title>
+    <link rel="stylesheet" href="interview.css">
+    <script src="https://www.gstatic.com/firebasejs/10.1.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.1.0/firebase-firestore-compat.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-bar">
+                <h1 class="logo">InterviewPrep</h1>
+                <ul class="slider-menu">
+                    <li><a href="interview.html" style="color: #fff">Interview</a></li>
+                    <li><a href="admin.html" style="color: #fff">Admin</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section>
+            <div class="row">
+                <div class="column left" >
+                    <video id="main_video" playsinline autoplay="false" > Cant load video </video>
+                    <br><br>
+                    <div class="buttons">
+                        <button id="main_video-button">Record</button>
+                        <button id="download-button">Download</button>
+                    </div>
+                    <br>
+                </div>
+                <div class="column questions" style="background-color: #ffffff82">
+                    <div id="questionBox">
+                        <p id="main-question">Tell me about yourself.</p>
+                        <button id="next-button">Next Question</button>    
+                    </div>
+                    <div id="thankYouBox" hidden="hidden">
+                        <p id="main-question">Thank you!</p>
+                        <button id="interview-button">Interview again</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script type="module" src="script.js"></script>
+</body>
+</html>
