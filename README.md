@@ -14,10 +14,3 @@ A web-based tool designed to help users prepare for interviews by providing rand
 
 - **Frontend**: HTML, CSS, JavaScript
 - **Backend**: Firebase (NoSQL) for data storage and real-time updates
-
-## Setup and Installation
-
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/yourusername/interviewPrep.git
-   cd interviewPrep
